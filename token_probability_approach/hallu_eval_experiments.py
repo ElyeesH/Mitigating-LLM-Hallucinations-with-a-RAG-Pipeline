@@ -41,12 +41,12 @@ import evaluate
 
 from huggingface_hub import login
 
-
-base_path = Path("/home/ensta/ensta-zguerguer/HalluDetect")
+# change your base path
+base_path = Path("/home/ensta/ensta-zguerguer/Mitigating-LLM-Hallucinations-with-a-RAG-Pipeline")
 
 # Fix if you want to use a different path
 output_path = base_path / "output"
-data_path = base_path / "HaluEval"
+data_path = base_path / "token_probability_approach"
 output_path.mkdir(exist_ok=True)
 
 """## These are the libraries needed to run this notebook
