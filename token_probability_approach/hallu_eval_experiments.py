@@ -1,3 +1,5 @@
+# Original code  can be found here https://github.com/Baylor-AI/HalluDetect
+# Original author : Baylor AI
 
 from sklearn.metrics import (
     accuracy_score,
